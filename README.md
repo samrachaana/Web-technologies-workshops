@@ -1,3 +1,2 @@
-# Web-technologies-workshops
-weekly workshop of web technologies
+# Web-technologies-workshop
 my weekly web technology workshop task
