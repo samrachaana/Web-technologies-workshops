@@ -1,0 +1,31 @@
+*{
+    font-size: 30px;
+}
+h1{
+    background-color:rgb(132, 154, 159);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.p1{
+    background-color: rgb(85, 76, 76);
+    /* font-size: 20px; */
+    color: azure;
+    font-style: italic;
+}
+.p4{
+    background-color: rgb(115, 103, 103);
+    /* font-size: 20px; */
+    color: azure;
+    font-style: italic;
+    width:50%;
+}
+.p4:hover{
+    background-color: bisque;
+    color:blanchedalmond
+}
+
+a[href]{
+    color:rgb(249, 113, 136);
+}
