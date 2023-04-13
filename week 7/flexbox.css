@@ -1,0 +1,37 @@
+.flex{
+    width:90%;
+    border:2px solid#000;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap: 10px;
+   
+}
+.box{
+    width:300px;
+    height:300px;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color:rgb(203, 203, 164);
+}
+.box3{
+    background-color:darkgrey;
+}
+.box4{
+    background-color:slategray;
+}
+.box5{
+    background-color:silver;
+}
+.box6{
+    background-color:orchid;
+}
+.box7{
+    background-color:rgb(87, 36, 87);
+}
+.box8{
+    background-color:rgb(113, 221, 140);
+}

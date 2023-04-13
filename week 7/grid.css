@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.grid{
+    width:90%;
+    border: 2px dotted black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+    grid-row-gap:10px;
+    grid-column-gap: 10px;
+}
+
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color:rgb(203, 203, 164);
+}
+.box3{
+    background-color:darkgrey;
+}
+.box4{
+    background-color:slategray;
+}
+.box5{
+    background-color:silver;
+}
+.box6{
+    background-color:orchid;
+}
