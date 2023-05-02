@@ -1,0 +1,313 @@
+*{
+    margin:0;
+    padding:0;
+}
+.parent1{
+    width: 100%;
+    background-color:rgb(13, 58, 46);
+    height: 555px;
+    font: 600px;
+    color: white;
+}
+.parent1 .right1, .left1{
+    width: 50%;
+    float: left;
+}
+.left1 img{
+    width: 70%;
+    height: 555px ;
+    float: right;
+}
+.right1 h1{
+    color:white;
+    font-size: 45px;
+    font-weight: 500;
+    margin: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+@media (max-width: 1230px){
+.left1 img{
+    height: 500px;
+}    
+}
+@media (max-width: 1050px) {
+.parent1 .left1 .right1{
+    width: 100%;
+}
+}
+@media (max-width: 500px) {
+.left1 img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 300px;
+}    
+}
+.title{
+    margin-left: 45px;
+    color: white;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    margin-left: 45px;
+}
+.date1{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+margin-left: 45px;
+
+
+}
+.date2{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10;
+    margin-left: 45px;
+}
+button{
+   margin-left: 45px;
+   background-color:#faba17; 
+   padding-top: 12px;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-bottom: 12px;
+   margin-top:16px ;
+   margin-right: 45px;
+   border: none;
+   border-radius: 35px;
+   font-size: large;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+.first{
+    background-color: orange;
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px ;
+    font-family: 'Book antique', system-ui;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.person{
+    display: flex;
+    margin-left: 110px;
+width: 100%;
+
+}
+
+.Lady img{
+    
+    padding: 15px;
+    height: 290px;
+    width: 75%;
+}
+.Lady h1{
+        font-family: 'Arial Black', system-ui;
+        font-size: larger;
+        margin-left: 70px;
+        padding: 8px;
+}
+.Lady p{
+    padding-left:95px ;
+    margin-top: 0.1px;
+    margin-bottom: 2px;
+    font-family: goudy old style;
+}
+.Lady .p2{
+    padding-left:105px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    
+}
+.Lady h2{
+    margin-left: 98px;
+    margin-top:9px ;
+    font-size: 20px;
+    margin-bottom:12px ;
+}
+
+
+.Man img {
+        padding-left: 20px;
+        height: 280px;
+        width: 75%;
+}
+.Man h1{
+    font-family: 'Arial Black', system-ui;
+        font-size: larger;
+        margin-left: 100px;
+        padding: 2px;
+        margin-top: 12px;
+}
+.Man p{
+    padding-left:125px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-family: goudy old style;
+}
+.Man .p3{
+    padding-left:130px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.Man h2{
+    margin-left: 115px;
+    margin-top:17px ;
+    font-size: 20px;
+    margin-bottom:12px ;
+}
+.girl img {
+        padding-left: 40px;
+        height: 280px;
+        width: 78%;
+}
+.girl h1{
+    font-family: 'Arial Black', system-ui;
+        font-size: larger;
+        margin-left: 155px;
+        padding: 2px;
+        margin-top:12px;
+}
+.girl p{
+    padding-left:145px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-family: goudy old style;
+}
+.girl .p4{
+    padding-left:133px ;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.girl h2{
+    margin-left: 150px;
+    margin-top:17px ;
+    font-size: 20px;
+    margin-bottom:12px
+}
+.person .left{
+    width: 30%;
+    float: left;
+}
+.person .center{
+    float: center;
+    width: 30%;
+}
+.person .right{
+    float: right;
+    width: 30%;
+}
+
+.second{
+    background-color: rgb(85, 131, 115);
+    width: 100%;
+}
+.text{
+    color: white;
+    display: flex;
+}
+.text h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 120px;
+    font-size: 67px;
+    margin-left: 85px;
+    
+
+
+}
+.text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 40px;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 30px;
+}
+.group img{
+    width:90%;
+    height: 380px;
+    margin-left: 86px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.third{
+    background-color: rgb(82, 123, 82);
+    display: flex;
+}
+.handshake img{
+    width: 100%;
+    height: 100%;
+}
+.third h1, .spon {
+   color: aliceblue;
+   
+}
+.spon{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.third h1{
+    margin-left: 200px;
+    margin-top: 70px;
+    margin-bottom: 230px;
+    font-size: 70px;
+}
+.spon{
+    margin-left: 200px ;
+    font-size: 18px;
+}
+.last{
+    background-color: rgb(7, 56, 54);
+    display: flex;
+    margin-bottom: 40px;
+}
+.out .reach{
+    color: white;
+    font-size: 70px;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    
+}
+.conf , .hel{
+color: white;
+font-size: 30px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 690px;
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+button{
+    background-color: rgb(235, 154, 4);
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 310px;
+}
+.button{
+    padding: 1px;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+.out{
+margin-left: 50px;
+}
+.small_group img{
+height: 700px;
+float: right;
+width: 180%;
+} 
